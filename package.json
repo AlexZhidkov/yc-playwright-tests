@@ -1,0 +1,23 @@
+{
+  "name": "yc-playwright-tests",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint .",
+    "test:functional:chromium": "playwright test basic-functional-test.spec.js --project=chromium --headed --workers=1",
+    "test:functional:roles": "playwright test role-based-tests.spec.js --project=chromium --headed --workers=1",
+    "test:functional": "playwright test --config=playwright.config.js",
+    "test:functional:headed": "playwright test --config=playwright.config.js --headed",
+    "test:functional:debug": "playwright test --config=playwright.config.js --debug",
+    "test:functional:ui": "playwright test --config=playwright.config.js --ui",
+    "test:functional:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "dotenv": "^17.2.3",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "npm-check-updates": "^19.1.2"
+  }
+}
