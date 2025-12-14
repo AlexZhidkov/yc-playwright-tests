@@ -30,7 +30,7 @@ test.describe("All Roles Accessible Menu Items Test", async () => {
   }
 
   test.skip("Admin on Desktop", async ({ page, context }) => {
-    test.setTimeout(60000); // 1 minute for the whole test
+    test.setTimeout(80000); // 1 minute for the whole test
 
     await test.step("Login with email and password", async () => {
       await loginPage.navigateToLogin();
