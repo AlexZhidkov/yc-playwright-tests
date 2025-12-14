@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 import { LoginPage } from "./pages/LoginPage.js";
-import { PCCPage } from "./pages/PCCPage.js";
+import { PccPage } from "./pages/PccPage.js";
 import { LogoutPage } from "./pages/LogoutPage.js";
 import { testConfig } from "./config/test-config.js";
 
