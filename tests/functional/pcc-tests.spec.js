@@ -11,7 +11,7 @@ test.describe("PCC Page Functionality Test", () => {
 
   test.beforeEach(async ({ page }) => {
     loginPage = new LoginPage(page);
-    pccPage = new PCCPage(page);
+    pccPage = new PccPage(page);
     logoutPage = new LogoutPage(page);
     
     console.log(`🚀 Starting test on: ${testConfig.baseUrl}`);
@@ -22,7 +22,7 @@ test.describe("PCC Page Functionality Test", () => {
 
 test('Login with email and password', async ({ page }) => {
     test.step("Login with email and password", async () => {
-        await pccPage.ison;
+        await pccPage.isOnPCCPage();
         
         console.log(`Print out test config PCC Email ${testConfig.pccUser.email}`);
 

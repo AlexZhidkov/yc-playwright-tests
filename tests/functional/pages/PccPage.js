@@ -3,7 +3,7 @@
 import { BasePage } from "./BasePage.js";
 
 
-export class PCCPage extends BasePage {
+export class PccPage extends BasePage {
   constructor(page) {
     super(page);
     this.page = page;
