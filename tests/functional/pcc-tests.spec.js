@@ -22,7 +22,7 @@ test.describe("PCC Page Functionality Test", () => {
 
 test('Login with email and password', async ({ page }) => {
     test.step("Login with email and password", async () => {
-        await pccPage.isOn();
+        await pccPage.ison;
         
         console.log(`Print out test config PCC Email ${testConfig.pccUser.email}`);
 
