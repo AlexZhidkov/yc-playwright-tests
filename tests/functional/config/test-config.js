@@ -35,6 +35,11 @@ export const testConfig = {
     password: process.env.USER_PASSWORD,
   },
 
+  pccUser: {
+    email: process.env.PCC_EMAIL,
+    password: process.env.PCC_PASSWORD,
+  },
+
   memberUser: {
     email: process.env.MEMBER_EMAIL,
     password: process.env.MEMBER_PASSWORD,

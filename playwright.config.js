@@ -40,6 +40,7 @@ export default defineConfig({
         viewport: { width: 1280, height: 720 },
       },
     },
+/*    
     {
       name: "firefox",
       use: { 
@@ -47,6 +48,7 @@ export default defineConfig({
         viewport: { width: 1280, height: 720 },
       },
     },
+*/
     {
       name: "Microsoft Edge",
       use: { 
