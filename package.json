@@ -19,5 +19,8 @@
     "eslint": "^9.39.1",
     "globals": "^16.5.0",
     "npm-check-updates": "^19.1.2"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
   }
 }
